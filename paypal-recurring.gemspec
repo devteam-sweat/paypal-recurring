@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "paypal-recurring"
+require_relative "lib/paypal/recurring/version"
 
 Gem::Specification.new do |s|
   s.name        = "paypal-recurring"
